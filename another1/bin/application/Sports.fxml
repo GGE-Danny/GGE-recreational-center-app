@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="796.0" style="-fx-background-color: #7494D2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Sports_Center">
+   <children>
+      <BorderPane layoutX="14.0" layoutY="6.0" prefHeight="534.0" prefWidth="262.0" style="-fx-background-color: #FEFEFE;">
+         <top>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label contentDisplay="CENTER" text="Sports Center" textAlignment="CENTER">
+                     <font>
+                        <Font name="Microsoft New Tai Lue" size="36.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8100000023841858" green="0.08910000324249268" blue="0.1522245705127716" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color green="0.41711947321891785" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <ImageView fitHeight="141.0" fitWidth="262.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../Pictures/sports%20logo.jpg" />
+               </image>
+            </ImageView>
+         </center>
+         <bottom>
+            <Label alignment="CENTER" prefHeight="158.0" prefWidth="176.0" text="OFFERED PER HOUR" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.015151501605004891">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2959844172000885" green="0.5431786775588989" blue="0.5473684072494507" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                           <color>
+                              <Color red="0.2959844172000885" green="0.5431786775588989" blue="0.5473684072494507" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9838492597577388">
+                           <color>
+                              <Color red="0.7400000095367432" green="0.4770370125770569" blue="0.2590000033378601" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7400000095367432" green="0.4770370125770569" blue="0.2590000033378601" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </bottom>
+      </BorderPane>
+      <ImageView fitHeight="325.0" fitWidth="229.0" layoutX="545.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/pexels-pixabay-358042.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="172.0" fitWidth="222.0" layoutX="295.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/volleyball.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="310.0" layoutY="37.0" prefHeight="27.0" prefWidth="153.0" text="FOOTBALL;D300">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23742690682411194" green="0.9157894849777222" blue="0.3844054639339447" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="583.0" layoutY="35.0" text="BASKETBALL;D200">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.015151501605004891">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7368420958518982" green="0.16647173464298248" blue="0.16647173464298248" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7894737124443054" green="0.6769005656242371" blue="0.5964912176132202" opacity="0.8999999761581421" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="330.0" layoutY="300.0" text="VOLLEYBALL;D150">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.015151501605004891">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2560272514820099" green="0.23659999668598175" blue="0.9100000262260437" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8679333329200745" green="0.9399999976158142" blue="0.07519999891519547" opacity="0.9027355313301086" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <ImageView fitHeight="170.0" fitWidth="200.0" layoutX="287.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/ben-hershey-Zjcf_V3DPVI-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="basketballb" layoutX="625.0" layoutY="411.0" mnemonicParsing="false" onAction="#basketclick" text="Basketball">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.015151501605004891">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7368420958518982" green="0.16647173464298248" blue="0.16647173464298248" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11908630281686783" green="0.06970000267028809" blue="0.17000000178813934" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="footballb" layoutX="352.0" layoutY="237.0" mnemonicParsing="false" onAction="#footclick" text="Football">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.015151501605004891">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.1678999960422516" green="0.7300000190734863" blue="0.3533644378185272" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="0.1678999960422516" green="0.7300000190734863" blue="0.3533644378185272" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.30642104148864746" green="0.7473683953285217" blue="0.2574268877506256" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="volleyballb" layoutX="353.0" layoutY="503.0" mnemonicParsing="false" onAction="#volleyclick" text="Volleyball" textFill="#a2ac37">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
